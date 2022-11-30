@@ -1,0 +1,25 @@
+package java007_class.part05;
+
+public class CreditCard {
+	String cardName;
+	String cardNum;
+	int pay;
+	
+	public CreditCard() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public CreditCard(String cardName, String cardNum, int pay) {
+		
+		this.cardName = cardName;
+		this.cardNum = cardNum;
+		this.pay = pay;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("%s %s %d",cardName,cardNum,pay);
+	}
+}

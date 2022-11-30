@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n    <expression enabled\="true" text\="sum"/>\r\n    <expression enabled\="true" text\="int hap\=0;&\#13;&\#10;hap \= hap+i;&\#13;&\#10;System.out.println(hap);"/>\r\n</watchExpressions>\r\n
